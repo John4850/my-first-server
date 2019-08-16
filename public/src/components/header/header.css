@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Tillana&display=swap');
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: #FBEE97;
+    border: 2px solid crimson;
+    justify-content: space-around;
+    font-family: 'Dokdo', cursive;
+    contain: content;
+}
+header img {
+    height: auto;
+    width: 5em;
+}
+h1 {
+    margin: 0;
+    font-style: bold;
+    font-size: 3em;
+}

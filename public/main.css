@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Dokdo|Tillana&display=swap');
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5em 3em 1fr;
+    background-color: #FBF1C1;
+    height: 100vh;
+}
+.filter-options {
+    display: inline;
+    justify-content: space-between;
+    border: 2px solid red;
+}
+.sort {
+    grid-row: 2;
+}
+.search {
+    grid-row: 2;
+}
+.poke-box {
+    grid-row: 3;
+    display: flex;
+    flex-wrap:wrap;
+    background-color: #0B3954;
+    justify-content: space-around;
+    contain: content;
+   
+    
+}
+.poke-card {
+    height: 400px;
+    width: 300px;
+    padding: 1px;
+    margin-top: 2px;
+    margin-left:1px;
+    margin-right:1px;
+    margin-bottom:2px;
+    background-color: red;
+    border: 2px aqua;
+    contain: content;
+
+}

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "update": "rm -rf public && cp -R ../pokedex public && rm -rf public/.git"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,7 @@
   "homepage": "https://github.com/John4850/my-first-server#readme",
   "dependencies": {
     "dotenv": "^8.0.0",
-    "exrpess": "0.0.1-security"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "eslint": "^6.1.0"
