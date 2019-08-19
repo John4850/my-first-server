@@ -1,8 +1,14 @@
 import Component from '../Component.js';
 
 class Pokemon extends Component {
+    onRender(dom) {
+        const backgroundColor = this.props.color_1;
+        dom.style.background = backgroundColor;
+    }
+
     renderHTML() {
         const pokemon = this.props.pokemon;
+        console.log(pokemon);
 
         return /*html*/`
         <div class="poke-card">
